@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+<body>
+   
+  <!-- first page  -->
+
+<div class="main">
+  <div class="image">
+    <img src="images/undraw_Questions_re_1fy7.png" alt="">
+  </div>
+  <div class="text">
+    <h3>Quiz App With Fixed Time</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque quidem expedita repellendus, quos totam quis earum corrupti quas, incidunt harum. Aliquid ipsum laboriosam omnis deleniti repellat. Quod, nostrum voluptatem. Magnam quod iure deserunt temporibus ratione. Ab nesciunt modi similique.</p>
+
+    
+  </div>
+  <button class="btn">Start Quiz</button>
+
+</div>
+  
+
+
+<!-- second page  -->
+
+<div class="rules">
+  <div class="rules-intro">
+     <h3>Some rules of the quiz</h3>
+     <hr>
+  </div>
+  <div class="rules-item">
+     <ol>
+       <li>Every Question Time is 15 second.</li>
+       <li>If you choose on answer, then you can't change it. </li>
+       <li>If you start the quiz, you can't exit until end the quiz.</li>
+       <li>If you choosen the right ans, then it will be green signal.</li>
+       <li>if you choosen wrong ans, then it wiil be red signal.</li>
+       <li>every question point is 1</li>
+     </ol>
+  </div>
+
+  <div class="buttons">
+    <button class="btn1">Exit Quiz</button>
+    <button class="btn2">Continue</button>
+  </div>
+</div>
+
+
+<!-- third page  -->
+
+<div class="first-question">
+
+<div class="first-ques">
+
+  <header class="ques-title">
+    <b>Start Exam</b>
+    <p>
+      <span>Time Left</span> <span id="timer"> 15</span>     
+    </p> 
+    <div class="progressBar"></div>
+  </header>
+
+  <div class="content">
+    <div>
+      <h3 class="whatHtml">1. What Does HTML Stand For</h3>
+    </div>
+  
+
+    <div class="options">
+      <!-- <li>Hyper Text Processor <i class="fa fa-times-circle"></i></li>
+      <li>Hyper Text Markup Language <i class="fa fa-check-circle"></i></li>
+      <li>Hyper Text Multiple Language <i class="fa fa-times-circle"></i></li>
+      <li>Hyper Tool Multi Language <i class="fa fa-times-circle"></i></li> -->
+    </div>
+    
+  </div>
+  
+  
+</div> 
+<div class="page-bottom">
+  <p class="bottomNum">1 of 5 Question</p>
+  <button class="next-que"> Next Que</button>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+<script src="question.js"></script>
+</body>
+</html>
